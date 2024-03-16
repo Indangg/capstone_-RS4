@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>CreativeQuill</title>
+    <link rel="stylesheet" href="Design.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <section class="header">
+        
+    <nav class="nav">
+        <a href="CreativeQuill.html"><img src="loga.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                
+                <li><a href="https://www.merriam-webster.com">VOCABS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="">CONTACT US</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="dc">
+
+        <h1 class="front">CREATIVE QUILL</h1>
+        <p>Your ultimate resource for random prompts to refine grammar and vocabulary. </p>
+        <p>Elevate your language skills effortlessly. </p>
+        <p>Get started now!</p>
+
+        <a href="" class="hero-btn">Click here to start</a>
+    </div>
+
+</section>
+
+<!----- About Us ----->
+
+<section class="about-us">
+    <h1>About Us</h1>
+    <p>Lorem Ipsum.</p>
+
+    <div class="row">
+        <div class ="course-col">
+            <h3>Easy</h3>
+            <p>Lorem ipsum.</p>
+        </div>
+        <div class ="course-col">
+            <h3>Medium</h3>
+            <p>Lorem ipsum.</p>
+        </div>
+        <div class ="course-col">
+            <h3>Hard</h3>
+            <p>Lorem ipsum.</p>
+        </div>
+    </div>
+</section>
+
+<!------- campus? ------->
+
+<section class="campus">
+    <h1>Our Team</h1>
+    <p>Lorem ipsum.</p>
+</section>
+
+<!-------Javascript for menu------->
+<script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
