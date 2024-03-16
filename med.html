@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing Prompt Generator</title>
+  <link rel="stylesheet" href="med.css">
+</head>
+<body>
+  <div class="container">
+    <a href="CreativeQuill.html"><img src="loga.png"></a>
+    <h1>Writing Prompt Generator <br> MEDIUM</h1>
+    <select id="category-select">
+      <option value="">Select a category</option>
+      <option value="life">Life</option>
+      <option value="take-three-nouns">Take Three Nouns</option>
+      <option value="random">Random</option>
+    </select>
+    <button id="prompt-btn">Generate Prompt</button>
+    <p id="prompt"></p>
+    <textarea id="essay" placeholder="Start writing your essay here..."></textarea>
+    <p id="instruction">Instruction: Please select a category first and start writing your essay. After writing, a grammar checker will check your output. Thank you.</p>
+    <form id="submit-form">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <script src="med.js"></script>
+</body>
+</html>
